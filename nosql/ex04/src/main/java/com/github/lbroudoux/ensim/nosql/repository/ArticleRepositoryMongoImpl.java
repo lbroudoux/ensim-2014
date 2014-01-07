@@ -76,7 +76,6 @@ public class ArticleRepositoryMongoImpl implements ArticleRepository{
       cursor.close();
       
       return result;
-      
    }
    
    private Article buildArticle(DBObject object){
